@@ -9,54 +9,74 @@
     h1 { margin-bottom: .25rem; }
     ul { line-height: 1.6; }
     .note { color: #666; font-size: .9rem; }
+    details { margin-top: 1rem; }
+    summary {
+      font-weight: 600;
+      cursor: pointer;
+      list-style: none;
+      outline: none;
+    }
+    summary::-webkit-details-marker { display: none; } /* hide default marker for nicer look */
+    .tutorial-links a { display: inline-block; margin-right: .6rem; }
   </style>
 </head>
 <body>
   <h1>PHYS 419 Computation repository</h1>
   <p class="note">Physics 419 Pre-class tutorials.</p>
-  <ul>
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE01-SV.ipynb" target="_blank" rel="noopener">PRE01-SV — View on GitHub</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE01-SV.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE01-SV.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">PRE02-SV — Euler Method with for-loops (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
+  <details>
+    <summary>Tutorials</summary>
+    <ul class="tutorial-links">
+      <li>
+        PRE01-SV —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE01-SV.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE01-SV.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE01-SV.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">PRE03-SV — Using SymPy (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
+      <li>
+        PRE02-SV — Euler Method with for-loops —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE02-SV%20-%20Euler%20Method%20with%20for-loops.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">PRE04-SV — Numerical Analysis of Potential Energy (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
+      <li>
+        PRE03-SV — Using SymPy —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE03-SV%20-%20Using%20SymPy.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">PRE05-SV — Phase plots with sliders (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
+      <li>
+        PRE04-SV — Numerical Analysis of Potential Energy —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE04-SV%20-%20Numerical%20Analysis%20of%20Potential%20Energy.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">PRE06-SV — Graphing with for-loops (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
+      <li>
+        PRE05-SV — Phase plots with sliders —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE05-SV%20-Phase%20plots%20with%20sliders.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
 
-    <li>
-      <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">PRE07-SV — Functions and ODE Solvers (GitHub)</a>
-      — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">Open in Colab</a>
-      — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
-    </li>
-  </ul>
+      <li>
+        PRE06-SV — Graphing with for-loops —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE06-SV%20-%20Graphing%20with%20for-loops.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
+
+      <li>
+        PRE07-SV — Functions and ODE Solvers —
+        <a href="https://github.com/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">View on GitHub</a>
+        — <a href="https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">Open in Colab</a>
+        — <a href="https://nbviewer.org/github/krpdrew/krpdrew.github.io/blob/main/tutorials/PRE07-SV%20-%20Functions%20and%20ODE%20Solvers.ipynb" target="_blank" rel="noopener">Rendered (nbviewer)</a>
+      </li>
+    </ul>
+  </details>
 
   <hr>
   <footer><small>Built with GitHub Pages — <a href="https://github.com/krpdrew/krpdrew.github.io">source</a></small></footer>
