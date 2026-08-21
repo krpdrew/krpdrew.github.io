@@ -1,5 +1,4 @@
 name: Sync README from index.html
-permissions: contents: write
 on:
   workflow_dispatch: {}
   push:
