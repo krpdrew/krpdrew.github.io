@@ -45,7 +45,7 @@ convert_with_turndown() {
 convert_with_python() {
   if command -v python3 >/dev/null 2>&1; then
     echo "Using python3 + markdownify to convert HTML -> Markdown"
-    python3 - <<'PY'
+    python3 - "$SRC" "$DST" <<'PY'
 import sys
 import io
 from pathlib import Path
