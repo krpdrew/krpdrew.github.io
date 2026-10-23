@@ -32,6 +32,21 @@ General guidelines when using Google Colab: Gemini AI assist is enabled; student
 
 </details>
 
+<details>
+<summary>Physics 237 Example Problems (click to expand)</summary>
+
+1. R0 — Physics 237 Computation Tutorial — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R0_phys237_computation_tutorial.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R0_phys237_computation_tutorial.ipynb)
+2. R3 — Jupyter notebook 2026 — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R3_jupyter%20notebook2026.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R3_jupyter%20notebook2026.ipynb)
+3. R7 — Jupyter notebook 2026 — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R7_jupyter%20notebook_2026.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R7_jupyter%20notebook_2026.ipynb)
+4. R8 — Jupyter notebook 2026 — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R8_jupyter%20notebook_2026.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R8_jupyter%20notebook_2026.ipynb)
+5. R10 — Jupyter notebook 2026 — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R10_jupyter%20notebook_2026.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R10_jupyter%20notebook_2026.ipynb)
+6. R11 — Jupyter notebook 2026 — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R11_jupyter%20notebook_2026.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R11_jupyter%20notebook_2026.ipynb)
+7. R12 — Wave packet in square well — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R12_wave%20packet%20in%20square%20well.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R12_wave%20packet%20in%20square%20well.ipynb)
+8. R14 — Barrier tunneling — [View on GitHub](https://github.com/krpdrew/krpdrew.github.io/blob/main/237/R14_Barrier_tunneling.ipynb) — [Open in Colab](https://colab.research.google.com/github/krpdrew/krpdrew.github.io/blob/main/237/R14_Barrier_tunneling.ipynb)
+
+</details>
+
 ---
 
 <footer><small>Built with GitHub Pages — [source](https://github.com/krpdrew/krpdrew.github.io)</small></footer>
+
